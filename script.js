@@ -39,7 +39,7 @@ let button = document.getElementById("globalTimerButton");
 
 button.addEventListener('click', startGlobalTimer); */
 
-// Local Time
+// My code - Local Time
 
 // adding a function that gets the Local Time by pressing button
 function updateLocalTime() {
