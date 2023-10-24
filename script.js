@@ -63,7 +63,7 @@ function updateLocalTime() {
     setInterval(updateLocalTime, 1000);
   }
 
-
+// linking the button on html to js
   let button = document.getElementById("LocalTimerButton");
 
 // I get an error saying that addEventListener cannot read properties of null - i am guessing this is because the updateLocalTime function is null. It looks like I am doing something wrong with that function, but I cannot tell what it is. I will go to office hours!
